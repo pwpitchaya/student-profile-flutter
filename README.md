@@ -1,16 +1,38 @@
-# student_profile_app
+# Student Profile App (Flutter)
 
-A new Flutter project.
+แอปพลิเคชันแสดงข้อมูลนักศึกษา พัฒนาโดยใช้ Flutter และ Material 3  
+ออกแบบ UI ให้เป็นทางการ เหมาะสำหรับใช้เป็นโปรเจกต์รายวิชา
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 👤 Student Information
+- **ชื่อ – นามสกุล:** นางสาวภวพิชญา คำวงษา  
+- **รหัสนักศึกษา:** 663450042-8  
+- **ชั้นปี:** ปีที่ 3  
+- **หลักสูตร:** วิทยาการคอมพิวเตอร์และสารสนเทศ  
+- **คณะ:** คณะสหวิทยาการ  
+- **มหาวิทยาลัย:** มหาวิทยาลัยขอนแก่น วิทยาเขตหนองคาย  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
+- แสดงข้อมูลนักศึกษาอย่างเป็นทางการ
+- ออกแบบ UI โทน **KKU Gold – Navy**
+- รองรับลิงก์ Social Media
+- สร้าง QR Code สำหรับเข้าถึงโปรไฟล์
+- รองรับ Desktop (Windows)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Technologies
+- Flutter (Material 3)
+- Dart
+- qr_flutter
+- url_launcher
+
+---
+
+## ▶️ How to Run
+```bash
+flutter pub get
+flutter run
